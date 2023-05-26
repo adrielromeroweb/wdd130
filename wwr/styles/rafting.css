@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Maven+Pro&display=swap');
+
+:root {
+    --primary-color: #144266;
+    --secondary-color: #5A95A2;
+    --accent1-color: #C8F3F3;
+    --accent2-color: #FEDF73;
+
+    --heading-font: 'Castoro', serif;
+    --paragraph-font: 'Maven Pro', serif;
+
+    --nav-background-color: #144266;
+    --nav-link-color: #5a95a2;
+    --nav-hover-link-color: #C8F3F3;
+    --nav-hover-background-color: #FEDF73;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+.hero {
+    position: absolute;
+}
+
+h1 {
+    position: relative;
+}
+
+article {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
