@@ -15,6 +15,10 @@
     --nav-hover-background-color: #FEDF73;
 }
 
+* {
+    margin: 0.4%;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color)
@@ -25,19 +29,35 @@ p {
 }
 
 .hero {
-    position: absolute;
+    position: relative;
 }
 
 h1 {
-    position: relative;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    background-color: rgba(254, 223, 115, 0.8);
+    
 }
 
 article {
-    position: relative;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    right: 50px;
+    background-color: rgba(236, 236, 236, 0.7);
+    padding: 10px;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+#article-img {
+    width: 10%;
+    float: right;
+    
 }
