@@ -1,20 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+header {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 h1 {
     color: steelblue;
+    border-bottom: 2px solid steelblue;
 }
 main img {
     float: right;
@@ -29,16 +38,19 @@ p {
 }
 main {
     max-width: 840px;
+    grid-column: 2;
 }
 aside {
     position: relative;
     width: 20em;
     text-align: center;
+    grid-column: 1;
+    grid-row: 1;
 }
 aside h2 {
     position: absolute;
     top: 0px;
-    left: 110px;
+    left: 130px;
 }
 aside img {
     width: 200px;
@@ -47,7 +59,8 @@ aside img {
 footer {
     text-align: center;
     border-top: 1px solid black;
-    margin: 1em;
+    margin: 0 auto;
+    max-width: 840px;
 }
 
 /* Class Selectors */
@@ -58,4 +71,13 @@ footer {
     padding: 1rem;
     color:black;
     background-color:antiquewhite;
+}
+
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+
 }
