@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Maven+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Maven Pro;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: orangered;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 0.8rem;
+    background-color: #eee;
+    display: grid;
+}
+
+label {
+    margin: 0.5rem;
+    padding-top: 10px;
+}
+
+input, select, textarea {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: rgb(88, 133, 21);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: black;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: orangered;
+}
